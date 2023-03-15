@@ -6,7 +6,7 @@ public class Admin {
     private Integer a_id;
     private String a_username;
     @JsonIgnore //一般标记在属性或者方法上，返回的json数据即不包含该属性
-    private String password;
+    private String a_password;
     private String a_name;
     private Integer a_phone;
     @JsonIgnore
@@ -29,12 +29,12 @@ public class Admin {
         this.a_username = a_username;
     }
 
-    public String getPassword() {
-        return password;
+    public String getA_password() {
+        return a_password;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setA_password(String a_password) {
+        this.a_password = a_password;
     }
 
     public String getA_name() {
