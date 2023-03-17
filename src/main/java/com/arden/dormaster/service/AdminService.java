@@ -1,6 +1,7 @@
 package com.arden.dormaster.service;
 
 import com.arden.dormaster.po.Admin;
+import com.arden.dormaster.po.PageInfo;
 
 import java.util.List;
 
@@ -12,7 +13,7 @@ public interface AdminService {
     public List<Admin> getAll();
 
      //分页查询
-    public PageInfo<Admin> findPageInfo(String a_username,String a_describe,Integer a_id,Integer pageIndex,Integer pageSize);
+    public PageInfo<Admin> findPageInfo(String a_username, String a_describe, Integer a_id, Integer pageIndex, Integer pageSize);
 
     //添加管理员信息
     public int addAdmin(Admin admin);
