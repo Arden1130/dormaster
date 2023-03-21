@@ -1,7 +1,7 @@
 package com.arden.dormaster.po;
 
 public class Student {
-    private static final long serialVersionUID=1L;
+    private static final long serialVersionUID=1L; //？
     private Integer s_id;
     private String s_name;
     private String s_sex;
