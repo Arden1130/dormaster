@@ -18,6 +18,12 @@
     <link rel="stylesheet" href="/css/font.css">
     <link rel="stylesheet" href="/css/xadmin.css">
 
+    <script type="text/javascript" src="/js/jquery-1.3.2.min.js"></script> //type指定javascript，不过不写type默认的话也是
+    <script type="text/javascript" src="/js/xadmin.js"></script>
+    <script src="/LayUI/layui/layui.js"></script> //模块化引用layui主要js
+    <script src="/LayUI/layui_exts/excel.js"></script>  //引用layui拓展模块excel.js
+
+
 </head>
 <body>
 
