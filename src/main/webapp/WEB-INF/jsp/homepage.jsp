@@ -23,9 +23,28 @@
     <script src="/LayUI/layui/layui.js"></script> //模块化引用layui主要js
     <script src="/LayUI/layui_exts/excel.js"></script>  //引用layui拓展模块excel.js
 
-
+    <style>
+        .o_div{
+            background: url("/images/01.jpg") no-repeat;
+        }
+        o.span{
+            display: block;
+            text-align: center;
+            font-size: 20px;
+            letter-spacing: 8px;
+        }
+    </style>
 </head>
 <body>
+<!--顶部-->
+<div class="container">
+    <div class="logo"><a>宿舍管理系统</a></div>
+    <div class="left_open">
+        <i title="展开左侧栏" class="iconfont"></i> <%--斜体字--%>
+    </div>
 
+<%--    <ul class="layui-nav right" lay---%>
+
+</div>
 </body>
 </html>
