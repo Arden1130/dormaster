@@ -26,10 +26,11 @@ public class AdminController {
         admin.setA_password(MD5Util.MD5EncodeUtf8(admin.getA_password()));
         Admin ad=adminService.findAdmin(admin);
         if(ad!=null){
-            session.setAttribute(s:"ad",ad);
+            session.setAttribute("ad",ad);
             return "homepage";
         }
-        model.addAllAttributes(s:"msg",o:"用户名或密码错误，请重新登录！")；
+        model.addAllAttributes()
+        model.addAllAttributes("msg","用户名或密码错误，请重新登录！")；
         return "login";
     }
 
@@ -60,7 +61,7 @@ public class AdminController {
     @RequestMapping(value="/findAdminById")
     public String findAdminById(Integer a_id,HttpSession session){
         Admin a=adminService.findAdminById(a_id);
-        session.setAttribute(s:"a",a);
+        session.setAttribute("a",a);
         return "admin_edit";
     }
 }
