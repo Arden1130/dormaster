@@ -43,6 +43,17 @@
         <i title="展开左侧栏" class="iconfont"></i> <%--斜体字--%>
     </div>
 
+    <ul class="layui-nav right" lay-filter="">
+        <li class="layui-nav-item">
+            <a href="javascript:;"><img src="/images/tx.jpeg" class="layui-nav-img">${sessionScope.ad.a_username}</a>
+            <dl class="layui-nav-child">
+                <dd><a onclick="x_admin_show('切换账号','loginOut')">切换账号</a> </dd>
+                <dd><a href="loginOut">退出</a> </dd>
+            </dl>
+        </li>
+        <li class="layui-nav-item to-index"><a href="loginOut">前台首页</a></li>
+    </ul>
+
 <%--    <ul class="layui-nav right" lay---%>
 
 </div>
