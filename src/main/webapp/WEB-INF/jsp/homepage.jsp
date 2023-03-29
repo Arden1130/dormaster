@@ -53,9 +53,12 @@
         </li>
         <li class="layui-nav-item to-index"><a href="loginOut">前台首页</a></li>
     </ul>
+</div>
+<%--中部--%>
+<div class="left-nav">
+    <div id="side-nav">
 
-<%--    <ul class="layui-nav right" lay---%>
-
+    </div>
 </div>
 </body>
 </html>
