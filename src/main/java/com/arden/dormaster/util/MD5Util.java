@@ -1,6 +1,6 @@
 package com.arden.dormaster.util;
 
-public class MD5Util {//MD5加密
+public class MD5Util {//MD5加密代码
 
     private static String byteArrayToHexString(){
         StringBuffer resultSb=new StringBuffer();
