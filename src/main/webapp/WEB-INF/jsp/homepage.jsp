@@ -25,7 +25,7 @@
 
     <style>
         .o_div{
-            background: url("/images/01.jpg") no-repeat;
+            background: url("/images/01.jpg") no-repeat; //设置背景图片
         }
         o.span{
             display: block;
