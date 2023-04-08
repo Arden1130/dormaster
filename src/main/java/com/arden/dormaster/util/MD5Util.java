@@ -6,7 +6,7 @@ import java.security.NoSuchAlgorithmException;
 public class MD5Util {
 
     private static String byteArrayToHexString(byte b[]){
-        StringBuffer resultSb=new StringBuffer();
+        StringBuffer resultSb=new StringBuffer();//StringBuffer是可变的
         for(int i=0;i<b.length;i++){
             resultSb.append(byteToHexString(b[i]));
         }
