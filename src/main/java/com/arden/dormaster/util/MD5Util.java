@@ -3,7 +3,7 @@ package com.arden.dormaster.util;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-public class MD5Util { //MD5加密
+public class MD5Util { //MD5加密函数
 
     private static String byteArrayToHexString(byte b[]){
         StringBuffer resultSb=new StringBuffer();//StringBuffer是可变的字符串类型
