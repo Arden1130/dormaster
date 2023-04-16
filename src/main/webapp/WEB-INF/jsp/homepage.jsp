@@ -37,7 +37,7 @@
 </head>
 <body>
 <!--顶部-->
-<div class="container"> //顶部导航栏
+<div class="container"> //顶部导航栏部分
     <div class="logo"><a>宿舍管理系统</a></div>
     <div class="left_open">
         <i title="展开左侧栏" class="iconfont"></i> <%--斜体字--%>
