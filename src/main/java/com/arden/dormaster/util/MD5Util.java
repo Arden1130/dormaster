@@ -13,7 +13,7 @@ public class MD5Util { //MD5加密的原理：
         return resultSb.toString();
     }
 
-    private static String byteToHexString(byte b){
+    private static String byteToHexString(byte b){ //将字节b转换为十六进制字符串
         int n=b;
         if(n<0){
             n+=256;
@@ -27,7 +27,7 @@ public class MD5Util { //MD5加密的原理：
         String resultString=null;
         try{
             resultString=new String(origin);
-            MessageDigest md=MessageDigest.getInstance("MD5");
+            MessageDigest md=MessageDigest.getInstance("MD5");  //获取MD5实例
             if(charsetname==null||"".equals(charsetname)){
                 resultString=byteArrayToHexString(md.digest(resultString.getBytes()));
             }
