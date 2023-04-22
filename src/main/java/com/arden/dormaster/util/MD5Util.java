@@ -36,7 +36,7 @@ public class MD5Util { //MD5加密的原理：
             }
         } catch (Exception exception) {
         }
-        return resultString.toUpperCase();
+        return resultString.toUpperCase();//字符串变大写
     }
 
     public static String MD5EncodeUtf8(String origin){
