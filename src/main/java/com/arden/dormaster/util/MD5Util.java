@@ -3,7 +3,7 @@ package com.arden.dormaster.util;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-public class MD5Util { //MD5加密的原理：将位数拓展到n*512+64
+public class MD5Util { //MD5加密的原理：将位数拓展到n*512+64(如果原来是512的倍数也要加512)
 
     private static String byteArrayToHexString(byte b[]){
         StringBuffer resultSb=new StringBuffer();//StringBuffer是可变的字符串类型
